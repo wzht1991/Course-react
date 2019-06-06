@@ -16,23 +16,21 @@
   top: 120px;
   left: 0px;
 }
+.logIn .radioGroup {
+  position: absolute;
+  top: 170px;
+  left: 33px;
+}
 .logIn .button {
   position: absolute;
   top: 200px;
-  left: 9px;
+  left: 0px;
 }
 .logIn .button .loginButton,
 .logIn .button .registerButton {
-  background-color: #1890fc;
-  color: #fff;
-  border: none;
   width: 100px;
   height: 30px;
   margin-right: 110px;
-}
-.logIn .button .loginButton:focus,
-.logIn .button .registerButton:focus {
-  opacity: 0.8;
 }
 .logIn .button .loginButton:hover,
 .logIn .button .registerButton:hover {
